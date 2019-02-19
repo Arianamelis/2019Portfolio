@@ -13,7 +13,7 @@ body {
   background: url("https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-color: #cccccc;
   height: 500px;
-  background-position: center;
+  background-position: stretch;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -73,7 +73,7 @@ h3 {
   /* Typography */
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: #024F7D
 }
 
 h1 {
@@ -107,11 +107,11 @@ h3 {
   overflow: auto;
 
   /* Typography */
-  color: #fff;
-  background: #fff;
+  color: #024F7D;
+  background: #777;
 
   /* Visual */
-  border-bottom: 2px solid #ccc;
+  border-bottom: 2px solid #024F7D
 }
 
 #logo {
@@ -131,7 +131,7 @@ h3 {
   text-decoration: none;
 
   /* Visual */
-  background: #4aaaa5;
+  background: #024F7D;
 }
 
 nav {
@@ -160,7 +160,7 @@ nav li {
 
 nav a {
   /* Typography */
-  color: #999;
+  color: 024F7D;
   text-decoration: none;
 }
 
@@ -195,12 +195,12 @@ footer {
   font-size: 12px;
 
   /* Typography */
-  color: #ccc;
+  color: #D67C06;
   text-align: center;
 
   /* Visual */
   background: #666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #024F7D;
 }
 
 /* sidebar */
@@ -321,7 +321,7 @@ main {
 
   color: #fff;
   text-align: center;
-  background: #4aaaa5;
+  background: #024F7D;
 
   /* Visual */
   border-bottom: 0;
@@ -386,7 +386,7 @@ input[type=submit] {
 
   /* Misc */
   cursor: pointer;
-  background: #4aaaa5;
+  background: #024F7D;
 
   /* Visual */
   border: 0 none;
