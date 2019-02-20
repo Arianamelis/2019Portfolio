@@ -1,23 +1,16 @@
 @import url("reset.css");
 
 body {
-    
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
   /* Typography */
   font-size: 18px;
   line-height: 34px;
-  color: #777;
+  color: #666;
 
   /* Visual */
   background: url("https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-  background-color: #cccccc;
-  height: 500px;
-  background-position: stretch;
-  background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-
 }
 
 * {
@@ -73,7 +66,7 @@ h3 {
   /* Typography */
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #024F7D
+  color: #065471;
 }
 
 h1 {
@@ -107,15 +100,17 @@ h3 {
   overflow: auto;
 
   /* Typography */
-  color: #024F7D;
-  background: #777;
+  color: #fff;
+  background: #065471;
 
   /* Visual */
-  border-bottom: 2px solid #024F7D
+  border-bottom: 3px solid #065471;
 }
 
-#logo {
+#logo
+.logo-image {
   float: left;
+  background-attachment:"http://i68.tinypic.com/2lvhjrn.png";
 
   /* Box-model */
   width: 250px;
@@ -131,10 +126,10 @@ h3 {
   text-decoration: none;
 
   /* Visual */
-  background: #024F7D;
+  background: 065471;
 }
 
-nav {
+nav .logo-image{
   /* Box-model */
   float: right;
 
@@ -142,8 +137,9 @@ nav {
   margin-top: 25px;
 }
 
-nav li {
-  display: inline-block;
+nav li
+ {
+  display: inline-flex;
 
   /* Box-model */
   padding-left: 15px;
@@ -157,10 +153,23 @@ nav li {
   /* Visual */
   border-left: 1px solid #efefef;
 }
+.logo-image{
+display: inline-flex;
+float: left;
 
+/* Box-model */
+width: 100%;
+height: 100%;
+
+
+
+/* Positioning */
+margin-right: 25px;
+
+}
 nav a {
   /* Typography */
-  color: 024F7D;
+  color: #D67C06;
   text-decoration: none;
 }
 
@@ -195,12 +204,13 @@ footer {
   font-size: 12px;
 
   /* Typography */
+  
   color: #D67C06;
   text-align: center;
 
   /* Visual */
-  background: #666;
-  border-top: 8px solid #024F7D;
+  background: #065471;
+  border-top: 2px solid #D67C06;;
 }
 
 /* sidebar */
@@ -265,16 +275,17 @@ main {
   float: left;
   width: 100%;
   max-width: 650px;
+  border-top: 90pz;
 
   /* Box-model */
-  padding: 30px;
+  padding: 50px;
 
   /* Positioning */
-  margin: 0 0 40px;
+  margin: 0 0 46px;
   background: #fff;
 
   /* Visual */
-  border: 1px solid #ddd;
+  border: 1px solid #D67C06;
 }
 
 /* portfolio page */
@@ -386,7 +397,7 @@ input[type=submit] {
 
   /* Misc */
   cursor: pointer;
-  background: #024F7D;
+  background: #065471;
 
   /* Visual */
   border: 0 none;
@@ -476,6 +487,5 @@ input[type=submit] {
     margin-left: 0;
   }
 }
-
 
 
