@@ -1,0 +1,22 @@
+{
+  "name": "2019portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arianamelis/2019Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arianamelis/2019Portfolio/issues"
+  },
+  "homepage": "https://github.com/Arianamelis/2019Portfolio#readme",
+  "dependencies": {
+    "handlebars": "^4.1.1"
+  }
+}
